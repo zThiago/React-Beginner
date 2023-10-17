@@ -1,0 +1,18 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Verdana;
+ }
+
+.Header {
+    display: flex;
+    justify-content: center;
+    height: 75px;
+    background-color: #191926;
+    border-bottom: 5px solid #191926;
+}
+
+.Body {
+    background-color: #292940;
+}

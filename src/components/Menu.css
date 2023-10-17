@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+.topbar-div {
+    display: flex;
+    align-items: center;
+}
+
+.topbar-content {
+    font-weight: bolder;
+    font-size: 18px;
+    color: whitesmoke;
+    margin-right: 20px;
+    text-decoration: none;
+    background-image: linear-gradient(white, whitesmoke);
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-position-x: center;
+    background-position-y: 110%;
+    transition: background-size 300ms linear, transform 250ms linear;
+}
+
+.topbar-content:hover {
+    background-size: 100% 3px;
+    transform: scale(1.05);
+}
